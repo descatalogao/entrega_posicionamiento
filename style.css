@@ -1,0 +1,80 @@
+/* -- GESTOR DE FUENTES -- */
+
+/* ·IMPORTAR FUENTE */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ·DEFINIR FUENTE */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ·UTILIZAR FUENTE */
+*{
+    font-weight: 500;
+    font-size: 50;
+    font-family:'Montserrat';
+    color:rgb(103, 225, 103);
+    background-color: rgb(32, 32, 32);
+}
+
+
+/* POSICIONES */
+/* TITULAR */
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed rgb(188, 252, 170);
+}
+
+/* NAVEGADOR */
+.content{
+    border: 1px dashed rgb(188, 252, 170);
+    position: relative;
+    margin-top: 100px;
+    line-height: 3px;
+}
+section{
+    position: relative;
+    width: 100%;
+}
+.sidebar{
+    border: 1px dashed rgb(188, 252, 170);
+    position: relative;
+    width:max-content; 
+    margin: 10px 10px 10px auto;
+    padding: 10px;
+}
+aside>ul{
+    width:fit-content;
+}
+
+/* CARACTERÍSTICAS */
+.features{
+    border: 1px dashed rgb(188, 252, 170);
+    margin: auto;
+    position: relative;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+/* FOOTER */
+footer{
+    border: 1px dashed rgb(188, 252, 170);
+    position: sticky;
+    margin: auto;
+    text-align: center;
+}
+/* BOTONES */
+button{
+    color: black;
+    background-color: rgb(249, 249, 249);
+    font-family:sans-serif;
+    font-size:smaller;
+    border-radius: 5px;
+}
